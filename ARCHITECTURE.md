@@ -25,9 +25,9 @@ The architecture of the Risk Management System is designed to ensure a structure
 
 The scope of the architecture includes:
 -	User Interface (UI):
-o	A web-based dashboard for risk monitoring and management.
-o	Intuitive UI for users to log risks, assess impact, and track mitigation efforts.
-o	Role-based access control (e.g., risk managers, employees, administrators).
+	- A web-based dashboard for risk monitoring and management.
+  - Intuitive UI for users to log risks, assess impact, and track mitigation efforts.
+  - Role-based access control (e.g., risk managers, employees, administrators).
 - Backend Services (API Layer):
 o	RESTful API for handling risk data, including risk identification, assessment, and mitigation workflows.
 o	Authentication and authorization mechanisms (JWT-based or OAuth).
