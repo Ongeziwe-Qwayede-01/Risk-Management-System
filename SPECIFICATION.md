@@ -1,4 +1,3 @@
-System Specification Document
 ## Project Title
 Risk Management System
 ## Domain
