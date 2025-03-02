@@ -1,5 +1,4 @@
-# Github Setup
-## Project Title: Risk Management System
+# Project Title: Risk Management System
 ## Description: A system designed to identify, assess, and mitigate risks within an organization.
 Links to:
 - [SPECIFICATION.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/SPECIFICATION.md) (System Specification)
