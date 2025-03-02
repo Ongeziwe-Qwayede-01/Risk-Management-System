@@ -45,6 +45,9 @@ The scope of the architecture includes:
 - Deployment & Scalability:
    - Cloud-based deployment on AWS/Azure for high availability and scalability.
    - CI/CD pipeline for automated testing and deployment.
+
+## Conclusion  
+The architecture of the Risk Management System follows the C4 model, ensuring scalability, maintainability, and security. Future improvements may include integration with AI-based risk prediction models and enhanced analytics dashboards.
      
 # C4 Diagram
 ![C4 Diagram](https://www.mermaidchart.com/raw/55772ac9-af3d-4a0d-8c7a-d243476c1e27?theme=light&version=v0.1&format=svg)
