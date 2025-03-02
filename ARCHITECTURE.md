@@ -46,7 +46,9 @@ The scope of the architecture includes:
    - Cloud-based deployment on AWS/Azure for high availability and scalability.
    - CI/CD pipeline for automated testing and deployment.
      
-#C4 Diagram
+# C4 Diagram
 ![C4 Diagram](https://www.mermaidchart.com/raw/55772ac9-af3d-4a0d-8c7a-d243476c1e27?theme=light&version=v0.1&format=svg)
+[Visit Mermaid](https://www.mermaidchart.com/app/projects/e91b001d-a7f6-4c26-a2d2-9787cfdebd9e/diagrams/55772ac9-af3d-4a0d-8c7a-d243476c1e27/version/v0.1/edit)
+
 
 
