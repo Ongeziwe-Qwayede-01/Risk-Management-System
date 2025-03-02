@@ -29,11 +29,11 @@ The scope of the architecture includes:
         - Intuitive UI for users to log risks, assess impact, and track mitigation efforts.
         - Role-based access control (e.g., risk managers, employees, administrators).
 - Backend Services (API Layer):
-o	RESTful API for handling risk data, including risk identification, assessment, and mitigation workflows.
-o	Authentication and authorization mechanisms (JWT-based or OAuth).
-o	Business logic implementation for risk scoring, categorization, and reporting.
+ - RESTful API for handling risk data, including risk identification, assessment, and mitigation workflows.
+ - Authentication and authorization mechanisms (JWT-based or OAuth).
+ - Business logic implementation for risk scoring, categorization, and reporting.
 - Database Layer:
-o	Relational database (MySQL) for storing risk records, mitigation plans, and user data.
+ - Relational database (MySQL) for storing risk records, mitigation plans, and user data.
 o	Schema design optimized for scalability and quick retrieval of risk data.
 -	Notification & Reporting Module:
 o	Automated alerts for high-priority risks.
