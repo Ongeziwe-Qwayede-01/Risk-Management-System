@@ -24,10 +24,10 @@ This Risk Management System will be designed to solve that problem by providing 
 The architecture of the Risk Management System is designed to ensure a structured and scalable approach to risk identification, assessment, and mitigation. This document provides a detailed breakdown of the key system components, from the user interface to backend services, ensuring seamless integration and efficient risk management.
 
 The scope of the architecture includes:
--	User Interface (UI):
-	- A web-based dashboard for risk monitoring and management.
-        - Intuitive UI for users to log risks, assess impact, and track mitigation efforts.
-        - Role-based access control (e.g., risk managers, employees, administrators).
+- User Interface (UI):
+   - A web-based dashboard for risk monitoring and management.
+   - Intuitive UI for users to log risks, assess impact, and track mitigation efforts.
+   - Role-based access control (e.g., risk managers, employees, administrators).
 - Backend Services (API Layer):
   - RESTful API for handling risk data, including risk identification, assessment, and mitigation workflows.
   - Authentication and authorization mechanisms (JWT-based or OAuth).
@@ -40,10 +40,10 @@ The scope of the architecture includes:
    - Risk reports and analytics dashboard for management decision-making.
    - Export options (PDF, CSV) for compliance and auditing purposes.
 - Security & Compliance:
-o	Data encryption and secure API communication.
-o	Compliance with industry standards (ISO 31000, GDPR, etc.).
+  - Data encryption and secure API communication.
+  - Compliance with industry standards (ISO 31000, GDPR, etc.).
 - Deployment & Scalability:
-o	Cloud-based deployment on AWS/Azure for high availability and scalability.
-o	CI/CD pipeline for automated testing and deployment.
+   - Cloud-based deployment on AWS/Azure for high availability and scalability.
+   - CI/CD pipeline for automated testing and deployment.
 
 
