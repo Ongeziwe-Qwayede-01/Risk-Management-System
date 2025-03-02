@@ -29,3 +29,5 @@ The system will involve:
 - Risk mitigation planning
 - Monitoring and tracking of risks over time
 
+## Conclusion  
+This document outlines the key specifications of the Risk Management System, detailing its purpose, features, and scope. The next phase involves designing the system architecture and core functionalities based on these specifications.
