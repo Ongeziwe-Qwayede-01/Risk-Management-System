@@ -33,12 +33,12 @@ The scope of the architecture includes:
   - Authentication and authorization mechanisms (JWT-based or OAuth).
   - Business logic implementation for risk scoring, categorization, and reporting.
 - Database Layer:
- - Relational database (MySQL) for storing risk records, mitigation plans, and user data.
-o	Schema design optimized for scalability and quick retrieval of risk data.
--	Notification & Reporting Module:
-o	Automated alerts for high-priority risks.
-o	Risk reports and analytics dashboard for management decision-making.
-o	Export options (PDF, CSV) for compliance and auditing purposes.
+   - Relational database (MySQL) for storing risk records, mitigation plans, and user data.
+   - Schema design optimized for scalability and quick retrieval of risk data.
+- Notification & Reporting Module:
+   - Automated alerts for high-priority risks.
+   - Risk reports and analytics dashboard for management decision-making.
+   - Export options (PDF, CSV) for compliance and auditing purposes.
 - Security & Compliance:
 o	Data encryption and secure API communication.
 o	Compliance with industry standards (ISO 31000, GDPR, etc.).
