@@ -3,7 +3,7 @@
 ## Description: A system designed to identify, assess, and mitigate risks within an organization.
 Links to:
 - [SPECIFICATION.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/SPECIFICATION.md) (System Specification)
-- [ARCHITECTURE.md](ARCHITECTURE.md) (C4 Diagrams and Architecture)
+- [ARCHITECTURE.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/ARCHITECTURE.md) (C4 Diagrams and Architecture)
           
 
 
