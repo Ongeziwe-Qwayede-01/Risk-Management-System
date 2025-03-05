@@ -1,3 +1,10 @@
+# **Stakeholder Analysis**
+
+## **Introduction**
+Stakeholder analysis helps identify key individuals or groups affected by the Risk Management System. Understanding their roles, concerns, and challenges ensures that the system meets their needs effectively. The table below outlines the key stakeholders, their roles, concerns, challenges, and success metrics.
+
+## **Stakeholder Analysis Table**
+
 | Stakeholder       | Role                                    | Key Concerns                          | Pain Points                              | Success Metrics                           |
 |------------------|---------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------|
 | Risk Manager    | Oversees risk assessments and mitigation plans | Accurate risk identification, tracking, and reporting | Manual processes are slow and error-prone | Reduction in time taken for risk analysis by 30% |
