@@ -1,6 +1,5 @@
 # **System Requirements Document (SRD)**
 
-## **Introduction**
 This document outlines the system requirements for the Risk Management System, ensuring it meets stakeholder needs. It details functional and non-functional requirements to guide development and implementation.
 
 ---
@@ -30,7 +29,7 @@ The system shall provide the following capabilities:
 
 ### **Usability**  
 - The interface shall be intuitive and provide guided steps for risk logging.  
-- The system shall comply with WCAG 2.1 accessibility standards.  
+- The system shall comply with Web Content Accessibility Guidelines (WCAG) accessibility standards.  
 
 ### **Deployability**  
 - The system shall be deployable on cloud-based platforms and on-premise servers.  
