@@ -1,6 +1,6 @@
 # **System Requirements Document (SRD)**
 
-This document outlines the system requirements for the Risk Management System, ensuring it meets stakeholder needs. It details functional and non-functional requirements to guide development and implementation.
+This document defines the system requirements for the Risk Management System, ensuring it meets stakeholder needs. Below are the functional and non-functional requirements to guide development and implementation.
 
 ---
 
@@ -32,7 +32,7 @@ The system shall provide the following capabilities:
 - The system shall comply with Web Content Accessibility Guidelines (WCAG) accessibility standards.  
 
 ### **Deployability**  
-- The system shall be deployable on cloud-based platforms and on-premise servers.  
+- The system shall be deployable on cloud-based platforms like netlify.  
 
 ### **Maintainability**  
 - The system’s codebase shall follow modular design principles for easier updates.  
