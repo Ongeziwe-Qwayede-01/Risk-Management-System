@@ -4,9 +4,9 @@
 Links to:
 - [SPECIFICATION.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/SPECIFICATION.md) (System Specification)
 - [ARCHITECTURE.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/ARCHITECTURE.md) (C4 Diagrams and Architecture)
-- [ARCHITECTURE.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/ARCHITECTURE.md) (C4 Diagrams and Architecture)
-- [ARCHITECTURE.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/ARCHITECTURE.md) (C4 Diagrams and Architecture)
-- [ARCHITECTURE.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/ARCHITECTURE.md) (C4 Diagrams and Architecture)
+- [STAKEHOLDER_ANALYSIS.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/ARCHITECTURE.md) (Stakeholder table)
+- [SYSTEM_REQUIREMENTS.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/ARCHITECTURE.md) (System requirements)
+- [REFLECTION.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/REFLECTION.md) (Reflection and challenges)
 
 ## Domain: 
 The system falls under the domain of **Business Operations,Organisations and Risk Management**, which helps businesses identify, analyze, and respond to potential risks in an organized manner.
