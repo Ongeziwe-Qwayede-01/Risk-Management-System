@@ -1,159 +1,196 @@
 # **Risk Management System - Use Case Specifications**
 
-## **1. Identify Risk**
-**Actor:** Risk Manager  
-**Description:** This use case allows a Risk Manager to log a new risk in the system, defining its category, impact level, and likelihood.  
-**Precondition:** The Risk Manager is logged in and has the necessary permissions.  
-**Postcondition:** A new risk entry is created in the system.  
+## **1. Use Case: Identify Risk**
+**Actor(s):** Risk Manager  
+**Description:**  
+The Risk Manager logs a new risk in the system, categorizing and assessing its likelihood and impact.  
+
+**Precondition:**  
+- The Risk Manager is logged into the system.  
+- The organization has at least one active project or department to assign the risk.  
+
+**Postcondition:**  
+- A new risk entry is created with a unique ID.  
+- A notification is sent to the Compliance Officer for review.  
 
 ### **Basic Flow:**
 1. Risk Manager selects "Identify Risk" from the system dashboard.
 2. System prompts for risk details (category, severity, likelihood).
 3. Risk Manager enters details and submits.
-4. System stores the risk and assigns it a unique ID.
+4. System validates input and stores the risk.
 5. System notifies the Compliance Officer.
 
 ### **Alternative Flows:**
-- **Risk Manager enters incomplete data** → System prompts for missing information.
-- **System encounters a database error** → System displays an error message and logs the failure.
+- **Risk Manager enters incomplete data** → System prompts for missing fields.
+- **Database error while saving risk** → System logs the error and alerts the admin.
 
 ---
 
-## **2. Assess Risk Impact**
-**Actor:** Risk Manager  
-**Description:** This use case evaluates the potential consequences of an identified risk.  
-**Precondition:** A risk must already exist in the system.  
-**Postcondition:** Risk assessment report is updated.  
+## **2. Use Case: Assess Risk Impact**
+**Actor(s):** Risk Manager  
+**Description:**  
+The Risk Manager evaluates the impact of an identified risk, including financial loss, regulatory issues, and reputational damage.  
+
+**Precondition:**  
+- A risk entry must exist in the system.  
+- The Risk Manager is assigned to assess risks.  
+
+**Postcondition:**  
+- The risk impact assessment is updated and saved.  
+- A detailed risk report is generated.  
 
 ### **Basic Flow:**
-1. Risk Manager selects a risk from the list.
-2. System prompts for impact analysis inputs (e.g., financial loss, compliance issues).
-3. Risk Manager completes the form and submits.
-4. System updates the risk impact assessment and generates a report.
+1. Risk Manager selects a risk from the system.
+2. System displays current risk details.
+3. Risk Manager enters impact assessment details.
+4. System updates the risk impact report.
 
 ### **Alternative Flows:**
-- **Risk does not exist** → System notifies the user and redirects to the risk identification page.
-- **Invalid input format** → System prompts the Risk Manager to correct the entry.
+- **Risk does not exist** → System notifies the user.
+- **Invalid data format** → System prompts for corrections.
 
 ---
 
-## **3. Mitigate Risk**
-**Actor:** Risk Manager  
-**Description:** Proposes and submits mitigation actions for an identified risk.  
-**Precondition:** Risk must have an active status and not be mitigated.  
-**Postcondition:** Mitigation plan is created and awaits approval.  
+## **3. Use Case: Mitigate Risk**
+**Actor(s):** Risk Manager  
+**Description:**  
+The Risk Manager submits a mitigation plan to reduce or eliminate the risk.  
+
+**Precondition:**  
+- The risk must be active and not already mitigated.  
+
+**Postcondition:**  
+- A mitigation plan is created and sent for approval.  
 
 ### **Basic Flow:**
-1. Risk Manager selects an open risk.
-2. System displays available mitigation strategies.
-3. Risk Manager selects an appropriate strategy and submits a mitigation plan.
-4. System stores the mitigation plan and notifies the Compliance Officer.
+1. Risk Manager selects an active risk.
+2. System prompts for mitigation strategies.
+3. Risk Manager submits the mitigation plan.
+4. System stores the plan and notifies the Compliance Officer.
 
 ### **Alternative Flows:**
-- **Mitigation plan is missing required details** → System prompts the user.
+- **Mitigation plan is missing key details** → System prompts the user.
 - **Risk is already mitigated** → System prevents duplicate submission.
 
 ---
 
-## **4. Approve Mitigation Plan**
-**Actor:** Compliance Officer  
-**Description:** Ensures that proposed mitigation plans meet compliance standards before implementation.  
-**Precondition:** A mitigation plan must be submitted.  
-**Postcondition:** Mitigation plan is approved or rejected.  
+## **4. Use Case: Approve Mitigation Plan**
+**Actor(s):** Compliance Officer  
+**Description:**  
+The Compliance Officer reviews and approves mitigation plans before implementation.  
+
+**Precondition:**  
+- A mitigation plan must be submitted.  
+- The Compliance Officer has permissions to approve risks.  
+
+**Postcondition:**  
+- The mitigation plan is approved or rejected.  
 
 ### **Basic Flow:**
 1. Compliance Officer selects a mitigation plan for review.
-2. System displays details of the plan.
-3. Compliance Officer either approves or rejects the plan.
-4. If approved, the system marks the risk as "Mitigation in Progress."
-5. System notifies the Risk Manager.
+2. System displays plan details.
+3. Compliance Officer approves or rejects the plan.
+4. If approved, the system updates the risk status.
 
 ### **Alternative Flows:**
-- **Plan is missing key details** → Compliance Officer requests revisions.
-- **Compliance Officer rejects the plan** → System marks the plan as "Rejected" and notifies the Risk Manager.
+- **Plan lacks required details** → Compliance Officer requests revisions.
+- **Plan is rejected** → System marks the risk as "Rejected" and notifies the Risk Manager.
 
 ---
 
-## **5. Monitor Risk**
-**Actor:** Risk Manager, System (Automated Process)  
-**Description:** Tracks risk status, updates risk levels, and notifies stakeholders of significant changes.  
-**Precondition:** At least one active risk exists in the system.  
-**Postcondition:** Risk log is updated, and relevant stakeholders are notified.  
+## **5. Use Case: Monitor Risk**
+**Actor(s):** Risk Manager, System (Automated Process)  
+**Description:**  
+Tracks and updates risk levels, sending alerts for significant changes.  
+
+**Precondition:**  
+- At least one active risk exists in the system.  
+
+**Postcondition:**  
+- Risk status is updated.  
+- Stakeholders are notified if risk levels change.  
 
 ### **Basic Flow:**
-1. System runs scheduled checks on risk status.
-2. If conditions change, system updates risk severity and sends alerts.
-3. Risk Manager reviews updated risk data.
-4. If necessary, additional mitigation actions are planned.
+1. System automatically checks risk statuses.
+2. If conditions change, system updates risk severity.
+3. System notifies Risk Manager.
+4. Risk Manager reviews updated data.
 
 ### **Alternative Flows:**
 - **No changes in risk level** → No alerts are sent.
-- **System fails to fetch data** → Admin is notified to check the system logs.
+- **System fails to fetch data** → Admin is notified.
 
 ---
 
-## **6. Generate Risk Report**
-**Actor:** Executive  
-**Description:** Provides a summary of organizational risks, including trends, mitigated risks, and ongoing assessments.  
-**Precondition:** System has recorded risk data.  
-**Postcondition:** Risk report is generated and available for review.  
+## **6. Use Case: Generate Risk Report**
+**Actor(s):** Executive  
+**Description:**  
+Generates a summary report of organizational risks and their statuses.  
+
+**Precondition:**  
+- The system has recorded risk data.  
+- The user has reporting access.  
+
+**Postcondition:**  
+- A risk report is generated.  
 
 ### **Basic Flow:**
 1. Executive selects "Generate Report."
-2. System retrieves and compiles risk data.
-3. System formats the report (PDF, Excel, or web view).
+2. System compiles risk data.
+3. System formats the report.
 4. Executive downloads or views the report.
 
 ### **Alternative Flows:**
-- **No risks logged** → System notifies that no data is available for reporting.
-- **System error while generating report** → User is notified, and logs are recorded for admin review.
+- **No risk data available** → System notifies the user.
+- **Report generation error** → Admin is notified.
 
 ---
 
-## **7. Configure Risk Thresholds**
-**Actor:** Admin  
-**Description:** Defines the risk severity levels and notification settings.  
-**Precondition:** Admin is logged in with sufficient privileges.  
-**Postcondition:** System updates risk thresholds.  
+## **7. Use Case: Configure Risk Thresholds**
+**Actor(s):** Admin  
+**Description:**  
+Allows Admins to define risk severity levels and notification settings.  
+
+**Precondition:**  
+- Admin is logged in with permissions.  
+
+**Postcondition:**  
+- System updates risk thresholds.  
 
 ### **Basic Flow:**
-1. Admin navigates to system settings.
-2. Admin modifies threshold values (e.g., high-risk threshold at 80% probability).
-3. System saves the new settings.
-4. System applies the changes to all risk assessments.
+1. Admin navigates to settings.
+2. Admin modifies threshold values.
+3. System saves the changes.
 
 ### **Alternative Flows:**
-- **Invalid threshold values** → System rejects input and provides guidelines.
-- **System error during update** → Changes are rolled back, and the admin is notified.
+- **Invalid threshold values** → System prompts for corrections.
+- **System error during update** → Changes are rolled back.
 
 ---
 
-## **8. User Access Management**
-**Actor:** Admin  
-**Description:** Manages user roles and permissions to ensure security compliance.  
-**Precondition:** Admin is logged in.  
-**Postcondition:** User permissions are updated.  
+## **8. Use Case: Manage User Access**
+**Actor(s):** Admin  
+**Description:**  
+Assigns roles and permissions for users.  
+
+**Precondition:**  
+- Admin is logged in.  
+
+**Postcondition:**  
+- User permissions are updated.  
 
 ### **Basic Flow:**
 1. Admin selects "User Management."
-2. System displays a list of users.
-3. Admin selects a user and modifies role/permissions.
-4. System saves changes and updates access controls.
+2. System displays users.
+3. Admin updates roles and permissions.
+4. System saves changes.
 
 ### **Alternative Flows:**
 - **User does not exist** → System displays an error.
-- **Insufficient admin privileges** → System restricts access to modifications.
+- **Insufficient privileges** → System restricts access.
 
 ---
 
 # **Final Notes**
-This document provides a structured overview of the **8 critical use cases** for the Risk Management System. Each use case includes:
-- **Detailed descriptions**
-- **Preconditions and postconditions**
-- **Main and alternative flows**
-
-
-
-
-
+This document provides structured use case specifications for the **Risk Management System**, ensuring **clarity and completeness** in tracking, assessing, mitigating, and reporting risks.
 
