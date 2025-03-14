@@ -1,7 +1,7 @@
 # **Risk Management System - Use Case Specifications**
 
 ## **1. Use Case: Identify Risk**
-**Actor(s):** Risk Manager  
+**Actor :** Risk Manager  
 **Description:**  
 The Risk Manager logs a new risk in the system, categorizing and assessing its likelihood and impact.  
 
@@ -27,7 +27,7 @@ The Risk Manager logs a new risk in the system, categorizing and assessing its l
 ---
 
 ## **2. Use Case: Assess Risk Impact**
-**Actor(s):** Risk Manager  
+**Actor :** Risk Manager  
 **Description:**  
 The Risk Manager evaluates the impact of an identified risk, including financial loss, regulatory issues, and reputational damage.  
 
@@ -52,7 +52,7 @@ The Risk Manager evaluates the impact of an identified risk, including financial
 ---
 
 ## **3. Use Case: Mitigate Risk**
-**Actor(s):** Risk Manager  
+**Actor :** Risk Manager  
 **Description:**  
 The Risk Manager submits a mitigation plan to reduce or eliminate the risk.  
 
@@ -75,7 +75,7 @@ The Risk Manager submits a mitigation plan to reduce or eliminate the risk.
 ---
 
 ## **4. Use Case: Approve Mitigation Plan**
-**Actor(s):** Compliance Officer  
+**Actor :** Compliance Officer  
 **Description:**  
 The Compliance Officer reviews and approves mitigation plans before implementation.  
 
@@ -99,7 +99,7 @@ The Compliance Officer reviews and approves mitigation plans before implementati
 ---
 
 ## **5. Use Case: Monitor Risk**
-**Actor(s):** Risk Manager, System (Automated Process)  
+**Actor :** Risk Manager, System (Automated Process)  
 **Description:**  
 Tracks and updates risk levels, sending alerts for significant changes.  
 
@@ -123,7 +123,7 @@ Tracks and updates risk levels, sending alerts for significant changes.
 ---
 
 ## **6. Use Case: Generate Risk Report**
-**Actor(s):** Executive  
+**Actor :** Executive  
 **Description:**  
 Generates a summary report of organizational risks and their statuses.  
 
@@ -147,7 +147,7 @@ Generates a summary report of organizational risks and their statuses.
 ---
 
 ## **7. Use Case: Configure Risk Thresholds**
-**Actor(s):** Admin  
+**Actor :** Admin  
 **Description:**  
 Allows Admins to define risk severity levels and notification settings.  
 
@@ -169,7 +169,7 @@ Allows Admins to define risk severity levels and notification settings.
 ---
 
 ## **8. Use Case: Manage User Access**
-**Actor(s):** Admin  
+**Actor :** Admin  
 **Description:**  
 Assigns roles and permissions for users.  
 
