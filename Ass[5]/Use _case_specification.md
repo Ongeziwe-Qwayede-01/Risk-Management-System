@@ -1,7 +1,7 @@
 # **Risk Management System - Use Case Specifications**
 
 ## **1. Identify Risk**
-**Actor(s):** Risk Manager  
+**Actor:** Risk Manager  
 **Description:** This use case allows a Risk Manager to log a new risk in the system, defining its category, impact level, and likelihood.  
 **Precondition:** The Risk Manager is logged in and has the necessary permissions.  
 **Postcondition:** A new risk entry is created in the system.  
@@ -20,7 +20,7 @@
 ---
 
 ## **2. Assess Risk Impact**
-**Actor(s):** Risk Manager  
+**Actor:** Risk Manager  
 **Description:** This use case evaluates the potential consequences of an identified risk.  
 **Precondition:** A risk must already exist in the system.  
 **Postcondition:** Risk assessment report is updated.  
@@ -38,7 +38,7 @@
 ---
 
 ## **3. Mitigate Risk**
-**Actor(s):** Risk Manager  
+**Actor:** Risk Manager  
 **Description:** Proposes and submits mitigation actions for an identified risk.  
 **Precondition:** Risk must have an active status and not be mitigated.  
 **Postcondition:** Mitigation plan is created and awaits approval.  
@@ -56,7 +56,7 @@
 ---
 
 ## **4. Approve Mitigation Plan**
-**Actor(s):** Compliance Officer  
+**Actor:** Compliance Officer  
 **Description:** Ensures that proposed mitigation plans meet compliance standards before implementation.  
 **Precondition:** A mitigation plan must be submitted.  
 **Postcondition:** Mitigation plan is approved or rejected.  
@@ -75,7 +75,7 @@
 ---
 
 ## **5. Monitor Risk**
-**Actor(s):** Risk Manager, System (Automated Process)  
+**Actor:** Risk Manager, System (Automated Process)  
 **Description:** Tracks risk status, updates risk levels, and notifies stakeholders of significant changes.  
 **Precondition:** At least one active risk exists in the system.  
 **Postcondition:** Risk log is updated, and relevant stakeholders are notified.  
@@ -93,7 +93,7 @@
 ---
 
 ## **6. Generate Risk Report**
-**Actor(s):** Executive  
+**Actor:** Executive  
 **Description:** Provides a summary of organizational risks, including trends, mitigated risks, and ongoing assessments.  
 **Precondition:** System has recorded risk data.  
 **Postcondition:** Risk report is generated and available for review.  
@@ -111,7 +111,7 @@
 ---
 
 ## **7. Configure Risk Thresholds**
-**Actor(s):** Admin  
+**Actor:** Admin  
 **Description:** Defines the risk severity levels and notification settings.  
 **Precondition:** Admin is logged in with sufficient privileges.  
 **Postcondition:** System updates risk thresholds.  
@@ -129,7 +129,7 @@
 ---
 
 ## **8. User Access Management**
-**Actor(s):** Admin  
+**Actor:** Admin  
 **Description:** Manages user roles and permissions to ensure security compliance.  
 **Precondition:** Admin is logged in.  
 **Postcondition:** User permissions are updated.  
