@@ -1,5 +1,6 @@
-![Use Case Diagram](https://www.mermaidchart.com/raw/adac722e-cd7f-4b9a-8097-2f3d9962476f?theme=light&version=v0.1&format=svg)
 # **Use Case Explanation for Risk Management System**
+
+![Use Case Diagram](https://www.mermaidchart.com/raw/adac722e-cd7f-4b9a-8097-2f3d9962476f?theme=light&version=v0.1&format=svg)
 
 ## **Key Actors and Their Roles**
 The Risk Management System involves several key actors who interact with the system to identify, assess, mitigate, and monitor risks. Below is a breakdown of each actor and their responsibilities:
@@ -15,24 +16,24 @@ The Risk Management System involves several key actors who interact with the sys
 ---
 
 ## **Relationships Between Actors and Use Cases**
-In the **Risk Management System**, different actors interact with use cases, often following specific relationships such as **inclusion** and **extension** to ensure a seamless risk management workflow.
+In the **Risk Management System**, different actors interact with use cases, often following specific relationships such as inclusion and extension to ensure a seamless risk management workflow.
 
 ### **1. Inclusion Relationship**
 **Example: "Mitigate Risk" includes "Approve Mitigation Plan".**
-- Before a mitigation action can be implemented, a **Risk Manager** must submit a mitigation plan.
-- The **Compliance Officer** is responsible for reviewing and approving the plan before any risk mitigation actions can be executed.
-- This inclusion ensures risk mitigation follows a **governance and approval** process.
+- Before a mitigation action can be implemented, a Risk Manager must submit a mitigation plan.
+- The Compliance Officer is responsible for reviewing and approving the plan before any risk mitigation actions can be executed.
+- This inclusion ensures risk mitigation follows a governance and approval process.
 
 ### **2. Extension Relationship**
 **Example: "Assess Risk Impact" extends "Identify Risk".**
-- A **Risk Manager** first **identifies a risk** by entering risk details into the system.
-- If additional analysis is needed, the system extends this process by triggering an **impact assessment**, where the severity and likelihood of the risk are evaluated.
-- This **extension** allows for **conditional actions** only when necessary.
+- A Risk Manager first identifies a risk by entering risk details into the system.
+- If additional analysis is needed the system extends this process by triggering an impact assessment, where the severity and likelihood of the risk are evaluated.
+- This extension allows for conditional actions only when necessary.
 
 ---
 
 ## **How the Diagram Addresses Stakeholder Concerns**
-The Use Case Diagram ensures that key stakeholder concerns from **Assignment 4** are addressed through system functionality:
+The Use Case Diagram ensures that key stakeholder concerns are addressed through system functionality:
 
 1. **Security vs Usability**
    - The **Admin** controls user access to sensitive risk data.
@@ -48,5 +49,4 @@ The Use Case Diagram ensures that key stakeholder concerns from **Assignment 4**
 
 ---
 
-This structured approach ensures that the **Risk Management System** aligns with stakeholder expectations and business requirements, providing a **robust framework** for managing organizational risks effectively.
 
