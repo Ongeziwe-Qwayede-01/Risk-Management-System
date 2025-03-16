@@ -24,7 +24,7 @@
 
 ---
 
-## **Final Notes**
+## **Key components**
 - **Functional tests** verify that risk management features work correctly.
 - **Performance and security tests** ensure the system can handle high loads and remains secure.  
 
