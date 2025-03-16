@@ -7,7 +7,7 @@ Links to:
 - [STAKEHOLDER_ANALYSIS.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/STAKEHOLDER_ANALYSIS.md) (Stakeholder table)
 - [SYSTEM_REQUIREMENTS.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/SYSTEM_REQUIREMENTS.md) (System requirements)
 - [USE CASE DIAGRAM.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/Ass%5B5%5D/Use_case_diagram.md)(Use case diagram)
-- [USE CASE SPECIFICATION.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/SYSTEM_REQUIREMENTS.md) (Use case specification)
+- [USE CASE SPECIFICATION.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/Ass%5B5%5D/Use%20_case_specification.md) (Use case specification)
 - [TEST CASES.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/SYSTEM_REQUIREMENTS.md) (Test cases)
 - [USE CASE REFLECTIONS.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/SYSTEM_REQUIREMENTS.md) (Reflections)
 - [REFLECTION.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/REFLECTION.md) (Reflection and challenges)
