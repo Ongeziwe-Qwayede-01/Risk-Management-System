@@ -6,6 +6,10 @@ Links to:
 - [ARCHITECTURE.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/ARCHITECTURE.md) (C4 Diagrams and Architecture)
 - [STAKEHOLDER_ANALYSIS.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/STAKEHOLDER_ANALYSIS.md) (Stakeholder table)
 - [SYSTEM_REQUIREMENTS.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/SYSTEM_REQUIREMENTS.md) (System requirements)
+- [USE CASE DIAGRAM.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/SYSTEM_REQUIREMENTS.md) (Use case diagram)
+- [USE CASE SPECIFICATION.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/SYSTEM_REQUIREMENTS.md) (Use case specification)
+- [TEST CASES.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/SYSTEM_REQUIREMENTS.md) (Test cases)
+- [USE CASE REFLECTIONS.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/SYSTEM_REQUIREMENTS.md) (Reflections)
 - [REFLECTION.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/REFLECTION.md) (Reflection and challenges)
 
 ## Domain: 
