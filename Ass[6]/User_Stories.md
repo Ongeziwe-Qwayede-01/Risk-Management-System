@@ -1,4 +1,4 @@
-# 📌 Agile User Stories for Risk Management System
+# Agile User Stories for Risk Management System
 
 ## Functional User Stories  
 
