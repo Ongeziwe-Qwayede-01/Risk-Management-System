@@ -11,7 +11,7 @@ Links to:
 - [TEST CASES.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/Ass%5B5%5D/Test_cases.md) (Test cases)
 - [USE CASE REFLECTIONS.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/Ass%5B5%5D/Reflection.md)(Reflections)
 - [REFLECTION.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/REFLECTION.md) (Reflection and challenges)
-- [REFLECTION.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/REFLECTION.md) (Reflection and challenges)
+- [USE STORIES.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/Ass%5B6%5D/User_Stories.md) (User stories)
 - [REFLECTION.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/REFLECTION.md) (Reflection and challenges)
 - [REFLECTION.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/REFLECTION.md) (Reflection and challenges)
 - [REFLECTION.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/REFLECTION.md) (Reflection and challenges)
