@@ -12,6 +12,6 @@
 | T-005 | Develop role-based access control | Security Engineer | 6 | To Do |
 
 **Sprint Contribution to MVP:**  
-This sprint ensures that the system can identify risks, assess their severity, and allow compliance officers to approve mitigation plans—laying the foundation for core risk management functionality.
+This sprint ensures that the system can identify risks, assess their severity, and allow compliance officers to approve mitigation plans laying the foundation for core risk management functionality.
 
 ---
