@@ -13,8 +13,7 @@ Links to:
 - [REFLECTION.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/REFLECTION.md) (Reflection and challenges)
 - [USE STORIES.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/Ass%5B6%5D/User_Stories.md) (User stories)
 - [SPRINT PLANNING.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/Ass%5B6%5D/Sprint%20Planning.md) (Sprints)
-- [REFLECTION.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/REFLECTION.md) (Reflection and challenges)
-- [REFLECTION.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/REFLECTION.md) (Reflection and challenges)
+- [PRODUCT BACKLOG.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/Ass%5B6%5D/Product%20Backlog.md)) (Backlog)
 
 ## Domain: 
 The system falls under the domain of **Business Operations,Organisations and Risk Management**, which helps businesses identify, analyze, and respond to potential risks in an organized manner.
