@@ -1,6 +1,6 @@
-## 📌 2. Product Backlog Creation  
+##  Product Backlog Creation  
 
-### 🏗 **Prioritized Product Backlog**  
+### **Prioritized Product Backlog**  
 
 | Story ID  | User Story | Priority (MoSCoW) | Effort Estimate (Story Points) | Dependencies |
 |-----------|-----------|-------------------|-------------------------------|--------------|
