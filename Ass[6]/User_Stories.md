@@ -15,7 +15,7 @@
 
 ---
 
-## 🛠 **Non-Functional User Stories**  
+## **Non-Functional User Stories**  
 
 | Story ID  | User Story | Acceptance Criteria | Priority |
 |-----------|-----------|----------------------|----------|
