@@ -5,7 +5,7 @@ A Kanban board is a visual project management tool used to track tasks through d
 
 ## How Our Kanban Board Works
 - **Visualizing Workflow:**  
-  Our board consists of six columns:  
+  My board consists of six columns:  
   - **To Do** – New tasks that need to be started.  
   - **In Progress** – Tasks actively being worked on.  
   - **In Review** – Tasks pending approval or feedback.  
@@ -14,7 +14,7 @@ A Kanban board is a visual project management tool used to track tasks through d
   - **Done** – Completed tasks.  
 
 - **Limiting Work-In-Progress (WIP):**  
-  We limit WIP to three tasks per column (except "Blocked" and "Done") to prevent overload and ensure focused progress.
+  Limit WIP to three tasks per column (except "Blocked" and "Done") to prevent overload and ensure focused progress.
 
 - **Supporting Agile Principles:**  
   - Continuous delivery: Tasks move fluidly across the board with regular updates.  
