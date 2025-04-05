@@ -1,66 +1,126 @@
-📄 Object State Model Explanations – Risk Management System (RMS)
-This document summarizes the purpose, key transitions, and functional relevance of the eight critical objects modeled in the state transition diagrams. Each explanation ties directly into your RMS system’s functional requirements and user stories for traceability and design alignment.
+# Object State Model Explanations – Risk Management System (RMS)
 
-1. 🛡️ Risk Object
-Explanation:
-Represents the full lifecycle of a risk in the system. It begins with identification and transitions through assessment, approval, mitigation, and monitoring, eventually reaching closure and archiving. This flow supports traceable and well-managed risk handling.
+This document outlines the key object state transitions for 8 critical objects in the RMS application. Each section maps the object’s lifecycle to functional requirements and user stories defined in earlier assignments.
 
-Linked Functional Requirement: FR-001 – Identify and Assess Risks
+---
 
-User Stories: Identify Risks, Assign Risks, Monitor Risks
+## 1. Risk Object
 
-2. 📝 Mitigation Plan
-Explanation:
-Tracks the evolution of a mitigation strategy designed to respond to an identified risk. It begins as a draft, moves through submission, and can either be approved or rejected. Approved plans are then implemented, verified, and ultimately closed and archived.
+**Description**:  
+Represents the full lifecycle of a risk within the system, from identification to closure. Risks are assessed, approved, mitigated, monitored, and eventually archived for historical analysis.
 
-Linked Functional Requirement: FR-002 – Approve Mitigation Plans
+- **Key States**: `Identified` → `Assessed` → `Approved` → `Monitored` → `Mitigated` → `Closed` → `Archived`
+- **Transitions**: Triggered by actions like user assignments, approvals, or mitigation completion.
 
-User Stories: Approve Mitigation Plans, Assign Tasks
+**Linked Functional Requirement**: FR-001 (Identify and Assess Risks)  
+**Related User Stories**:  
+- Identify Risks  
+- Assign Risks  
+- Monitor Risks  
 
-3. 👤 User Account
-Explanation:
-Outlines the different states of a user's account within the RMS. After registration, an account is activated once verified. It may be suspended due to issues or deactivated upon request. Closed accounts are archived for record-keeping.
+---
 
-Linked Functional Requirement: FR-006 – Manage User Roles and Permissions
+## 2. Mitigation Plan
 
-User Stories: Manage Roles, Support Concurrent Users
+**Description**:  
+Tracks how a mitigation plan evolves from being drafted to implemented. It includes review and testing phases, ensuring that the response to a risk is controlled and effective.
 
-4. 📊 Risk Report
-Explanation:
-Describes how a risk report moves from being generated to reviewed, approved, and then distributed to stakeholders. Finally, reports are archived to satisfy compliance and historical analysis.
+- **Key States**: `Drafted` → `Submitted` → `Reviewed` → `Approved` → `Implemented` → `Closed` → `Archived`
+- **Transitions**: Initiated by submission, review approval, or test completion.
 
-Linked Functional Requirement: FR-003 – Review Risk Reports
+**Linked Functional Requirement**: FR-002 (Approve Mitigation Plans)  
+**Related User Stories**:  
+- Approve Mitigation Plans  
+- Assign Tasks  
 
-User Stories: Review Reports, Generate Compliance Reports
+---
 
-5. 📄 Compliance Report
-Explanation:
-Used to ensure adherence to regulatory standards. Compliance reports are created, then validated by auditors. They are either submitted and accepted, or rejected and revised. Accepted reports are archived for compliance purposes.
+## 3. User Account
 
-Linked Functional Requirement: FR-008 – Generate Compliance Reports
+**Description**:  
+Represents a user’s account lifecycle, including the different states an account may enter due to user actions or system policies (e.g., security restrictions).
 
-User Stories: Generate Compliance Reports
+- **Key States**: `Registered` → `Active` → `Suspended` → `Deactivated`
+- **Transitions**: Triggered by login, admin actions, or policy enforcement.
 
-6. 🚨 Alert
-Explanation:
-Models how the system handles real-time alerts. An alert is triggered, then sent to relevant users. Once acknowledged, it is either resolved or escalated further based on actions taken.
+**Linked Functional Requirement**: FR-006 (Manage User Roles and Permissions)  
+**Related User Stories**:  
+- Manage Roles  
+- Support Concurrent Users  
 
-Linked Functional Requirement: FR-005 – Generate Real-Time Alerts
+---
 
-User Stories: Generate Alerts, Link Risks to Incidents
+## 4. Risk Report
 
-7. 📜 Audit Log
-Explanation:
-Captures and maintains logs of system events. The log starts when initiated, continues while logging, and ends with finalization and archiving. This ensures accountability and transparency in system activities.
+**Description**:  
+Shows the lifecycle of a risk report used by stakeholders. After generation, a report can be reviewed, approved, or sent for revisions. Final versions are distributed or stored.
 
-Linked Functional Requirement: FR-010 – Log Risk Actions for Audit
+- **Key States**: `Generated` → `In Review` → `Approved` → `Published`
+- **Transitions**: Triggered by report submission, reviews, or approval decisions.
 
-User Stories: Log Actions, Manage History
+**Linked Functional Requirement**: FR-003 (Review Risk Reports)  
+**Related User Stories**:  
+- Review Reports  
+- Generate Compliance Reports  
 
-8. 💾 Backup Job
-Explanation:
-Manages automated backup processes. Begins as scheduled, then runs, either succeeds or fails. Failed jobs may be retried. Successful backups are verified and archived, ensuring data integrity and disaster recovery capability.
+---
 
-Linked Functional Requirement: FR-011 – Automated Data Backups
+## 5. Compliance Report
 
-User Stories: Backup System, Handle Failures
+**Description**:  
+Represents a specialized report submitted to regulators. It can be accepted or rejected and may require resubmission. Used to meet external audit and compliance requirements.
+
+- **Key States**: `Generated` → `Submitted` → `Under Review` → `Accepted` / `Rejected`
+- **Transitions**: Based on external feedback or internal resubmission.
+
+**Linked Functional Requirement**: FR-008 (Generate Compliance Reports)  
+**Related User Stories**:  
+- Generate Compliance Reports  
+
+---
+
+## 6. Alert
+
+**Description**:  
+Handles real-time alerts triggered by system anomalies or risk thresholds. Alerts can be acknowledged, escalated, or resolved by users.
+
+- **Key States**: `Generated` → `Acknowledged` → `In Progress` → `Resolved` → `Closed`
+- **Transitions**: Based on user responses or system resolution mechanisms.
+
+**Linked Functional Requirement**: FR-005 (Generate Real-Time Alerts)  
+**Related User Stories**:  
+- Generate Alerts  
+- Link Risks to Incidents  
+
+---
+
+## 7. Audit Log
+
+**Description**:  
+Logs system/user actions. Each entry is immutable but can be accessed or filtered for auditing purposes. Crucial for traceability and legal compliance.
+
+- **Key States**: `Created` → `Stored` → `Accessed` (Read-only)
+- **Transitions**: System-generated and accessed on demand.
+
+**Linked Functional Requirement**: FR-010 (Log Risk Actions for Audit)  
+**Related User Stories**:  
+- Log Actions  
+- Manage History  
+
+---
+
+## 8. Backup Job
+
+**Description**:  
+Represents a recurring system process for backing up data. It can succeed, fail, or be retried. Critical for disaster recovery and system reliability.
+
+- **Key States**: `Scheduled` → `Running` → `Success` / `Failed` → `Retried` (if failed) → `Completed`
+- **Transitions**: Based on time-based triggers and job outcomes.
+
+**Linked Functional Requirement**: FR-011 (Automated Data Backups)  
+**Related User Stories**:  
+- Backup System  
+- Handle Failures  
+
+
+
