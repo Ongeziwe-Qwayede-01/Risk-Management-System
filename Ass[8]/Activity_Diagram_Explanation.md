@@ -2,17 +2,21 @@
 
 This document provides clear, concise descriptions of key activity workflows in the RMS. Each section outlines the actors involved, the linked functional requirements, relevant user stories, and a plain-language explanation of the workflow.
 
-1. Identify and Assess Risks
+**1. Identify and Assess Risks**
 
-Actors: Risk Manager, SystemLinked FR: FR-001 (Identify and Assess Risks)User Stories: Identify Risks, Assign Risks
+- Actors: Risk Manager, System
+- Linked FR: FR-001 (Identify and Assess Risks)
+- User Stories: Identify Risks, Assign Risks
 
-Explanation:This workflow captures the process of risk identification and evaluation. It enables proactive planning by allowing users to input, validate, and assess risk entries.
+**Explanation** :This workflow captures the process of risk identification and evaluation. It enables proactive planning by allowing users to input, validate, and assess risk entries.
 
 2. Approve Mitigation Plans
 
-Actors: Team Lead, SystemLinked FR: FR-002 (Approve Mitigation Plans)User Stories: Approve Plans, Assign Tasks
+- Actors: Team Lead, System
+- Linked FR: FR-002 (Approve Mitigation Plans)
+- User Stories: Approve Plans, Assign Tasks
 
-Explanation:This process models how a mitigation plan moves through submission, review, optional revision, and final approval. It ensures mitigation is peer-reviewed and actionable.
+**Explanation**:This process models how a mitigation plan moves through submission, review, optional revision, and final approval. It ensures mitigation is peer-reviewed and actionable.
 
 3. Review Risk Reports
 
