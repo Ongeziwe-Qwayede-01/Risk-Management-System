@@ -1,6 +1,6 @@
 ## Activity Diagram Explanations – Risk Management System (RMS)
 
-This document provides clear, concise descriptions of key activity workflows in the RMS. Each section outlines the actors involved, the linked functional requirements, relevant user stories, and a plain-language explanation of the workflow.
+This document provides clear, concise descriptions of key activity workflows in the RMS. Each section outlines the actors involved, the linked functional requirements, relevant user stories.
 
 **1. Identify and Assess Risks**
 
@@ -32,7 +32,7 @@ This document provides clear, concise descriptions of key activity workflows in 
 - Linked FR: FR-001, FR-006
 - User Stories: Assign Risks, Manage Roles
 
-**Explanation*:This workflow ensures risk items are delegated to the right personnel. Assignment depends on availability and expertise, helping with accountability and role-based workflows.
+**Explanation**:This workflow ensures risk items are delegated to the right personnel. Assignment depends on availability and expertise, helping with accountability and role-based workflows.
 
 **5. Generate Real-Time Alerts**
 
