@@ -10,7 +10,7 @@ This document provides clear, concise descriptions of key activity workflows in 
 
 **Explanation** :This workflow captures the process of risk identification and evaluation. It enables proactive planning by allowing users to input, validate, and assess risk entries.
 
-2. Approve Mitigation Plans
+**2. Approve Mitigation Plans**
 
 - Actors: Team Lead, System
 - Linked FR: FR-002 (Approve Mitigation Plans)
@@ -18,38 +18,50 @@ This document provides clear, concise descriptions of key activity workflows in 
 
 **Explanation**:This process models how a mitigation plan moves through submission, review, optional revision, and final approval. It ensures mitigation is peer-reviewed and actionable.
 
-3. Review Risk Reports
+**3. Review Risk Reports**
 
-Actors: Analyst, SystemLinked FR: FR-003 (Review Risk Reports)User Stories: Review Reports
+- Actors: Analyst, System
+- Linked FR: FR-003 (Review Risk Reports)
+- User Stories: Review Reports
 
-Explanation:This workflow ensures that reports are reviewed by an analyst, verified for completeness, and published for stakeholder access. It enables compliance and informed decisions.
+**Explanation**:This workflow ensures that reports are reviewed by an analyst, verified for completeness, and published for stakeholder access. It enables compliance and informed decisions.
 
-4. Assign Risks to Team Members
+**4. Assign Risks to Team Members**
 
-Actors: Project Manager, SystemLinked FR: FR-001, FR-006User Stories: Assign Risks, Manage Roles
+- Actors: Project Manager, System
+- Linked FR: FR-001, FR-006
+- User Stories: Assign Risks, Manage Roles
 
-Explanation:This workflow ensures risk items are delegated to the right personnel. Assignment depends on availability and expertise, helping with accountability and role-based workflows.
+**Explanation*:This workflow ensures risk items are delegated to the right personnel. Assignment depends on availability and expertise, helping with accountability and role-based workflows.
 
-5. Generate Real-Time Alerts
+**5. Generate Real-Time Alerts**
 
-Actors: SystemLinked FR: FR-005 (Real-Time Alerts)User Stories: Generate Alerts, Link Incidents
+- Actors: System
+- Linked FR: FR-005 (Real-Time Alerts)
+- User Stories: Generate Alerts, Link Incidents
 
-Explanation:System monitors for new risks or thresholds and triggers alerts. The alerts are logged and shared with stakeholders instantly to reduce delay in response.
+**Explanation**:System monitors for new risks or thresholds and triggers alerts. The alerts are logged and shared with stakeholders instantly to reduce delay in response.
 
-6. Manage User Roles and Permissions
+**6. Manage User Roles and Permissions**
 
-Actors: AdminLinked FR: FR-006 (Manage Roles)User Stories: Manage Roles, Support Concurrent Users
+- Actors: Admin
+- Linked FR: FR-006 (Manage Roles)
+- User Stories: Manage Roles, Support Concurrent Users
 
 Explanation:Admins can view, assign, or revoke roles from users. This workflow supports access control and ensures appropriate permissions across the system.
 
-7. Link Risks to Past Incidents
+**7. Link Risks to Past Incidents**
 
-Actors: Analyst, SystemLinked FR: FR-007 (Link Incidents)User Stories: Link Risks
+- Actors: Analyst, System
+- Linked FR: FR-007 (Link Incidents)
+- User Stories: Link Risks
 
-Explanation:Analysts can link current risks to past incidents for context and better understanding. System validates linkage and ensures no duplication.
+**Explanation**:Analysts can link current risks to past incidents for context and better understanding. System validates linkage and ensures no duplication.
 
-8. Automated Data Backup Process
+**8. Automated Data Backup Process**
 
-Actors: SystemLinked FR: FR-011 (Automated Data Backups)User Stories: Backup System
+- Actors: System
+- Linked FR: FR-011 (Automated Data Backups)
+- User Stories: Backup System
 
-Explanation:This fully automated process ensures regular backups, verifies integrity, and retries on failure. Supports disaster recovery needs.
+**Explanation**:This fully automated process ensures regular backups, verifies integrity, and retries on failure. Supports disaster recovery needs.
