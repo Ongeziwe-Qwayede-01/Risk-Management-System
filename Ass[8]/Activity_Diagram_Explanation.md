@@ -1,6 +1,6 @@
-📘 Activity Workflow Explanations – Risk Management System (RMS)
+## Activity Diagram Explanations – Risk Management System (RMS)
 
-This document provides plain-language explanations for key activity workflows in the RMS. Each workflow corresponds with functional requirements and user stories, but without any visual UML diagrams.
+This document provides clear, concise descriptions of key activity workflows in the RMS. Each section outlines the actors involved, the linked functional requirements, relevant user stories, and a plain-language explanation of the workflow.
 
 1. Identify and Assess Risks
 
