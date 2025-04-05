@@ -1,9 +1,5 @@
-stateDiagram-v2
-    [*] --> Identified
-    Identified --> Assessed : Risk Assessment Completed
-    Assessed --> Mitigated : Mitigation Plan Approved
-    Assessed --> Assigned : Assigned to Risk Owner
-    Mitigated --> Reviewed : Review Submitted
-    Reviewed --> Closed : Approved by Risk Manager
-    Assessed --> Rejected : Not Accepted
-    Closed --> Archived : Audit Logged
+## Object State Modeling with State Transition Diagrams
+# Risk Object
+![Editor _ Mermaid Chart-2025-04-05-103452](https://github.com/user-attachments/assets/be4eb270-c9a0-4fe1-aa21-25e8decd6d7d)
+
+
