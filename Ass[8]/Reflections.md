@@ -10,7 +10,7 @@ A major challenge was determining the appropriate **granularity** for modeling s
 - **Too much detail** made diagrams overwhelming and difficult to interpret.
 - **Too little detail** risked omitting critical system logic.
 
-To balance this, we focused on **core business actions** and **decision points**, ensuring diagrams were both concise and informative.
+The focus was on **core business actions** and **decision points**, ensuring diagrams were both concise and informative.
 
 ---
 
