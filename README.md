@@ -16,7 +16,7 @@ Links to:
 - [PRODUCT BACKLOG.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/Ass%5B6%5D/Product%20Backlog.md) (Backlog)
 - [STATE TRANSACTION DIAGRAM.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/Ass%5B8%5D/Transaction_Diagram_Explanation.md)(Transaction diagram)
 - [ACTIVITY DIAGRAM.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/Ass%5B6%5D/Product%20Backlog.md). (Activity diagram)
-- [EXPLANATION FOR TRANSACTION DIAGRAM.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/Ass%5B6%5D/Product%20Backlog.md) (Explanation)
+- [EXPLANATION FOR TRANSACTION DIAGRAM.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/Ass%5B8%5D/Transaction_Diagram_Explanation.md) (Explanation)
 - [EXPLANATION FOR  ACTIVITY DIAGRAM.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/Ass%5B6%5D/Product%20Backlog.md) (Explanation)
 - [DIAGRAM REFLECTIONS.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/Ass%5B6%5D/Product%20Backlog.md) (Diagram reflection)
 
