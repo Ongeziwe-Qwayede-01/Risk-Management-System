@@ -14,7 +14,7 @@ Links to:
 - [USE STORIES.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/Ass%5B6%5D/User_Stories.md) (User stories)
 - [SPRINT PLANNING.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/Ass%5B6%5D/Sprint%20Planning.md) (Sprints)
 - [PRODUCT BACKLOG.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/Ass%5B6%5D/Product%20Backlog.md) (Backlog)
-- [STATE TRANSACTION DIAGRAM.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/Ass%5B8%5D/Transaction_Diagram_Explanation.md)(Transaction diagram)
+- [STATE TRANSACTION DIAGRAM.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/Ass%5B8%5D/State_Transaction_Diagram.md)(Transaction diagram)
 - [ACTIVITY DIAGRAM.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/Ass%5B8%5D/Activity_Diagram). (Activity diagram)
 - [EXPLANATION FOR TRANSACTION DIAGRAM.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/Ass%5B8%5D/Transaction_Diagram_Explanation.md) (Explanation)
 - [EXPLANATION FOR  ACTIVITY DIAGRAM.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/Ass%5B8%5D/Activity_Diagram_Explanation.md) (Explanation)
