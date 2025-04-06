@@ -18,7 +18,7 @@ Links to:
 - [ACTIVITY DIAGRAM.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/Ass%5B8%5D/Activity_Diagram). (Activity diagram)
 - [EXPLANATION FOR TRANSACTION DIAGRAM.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/Ass%5B8%5D/Transaction_Diagram_Explanation.md) (Explanation)
 - [EXPLANATION FOR  ACTIVITY DIAGRAM.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/Ass%5B8%5D/Activity_Diagram_Explanation.md) (Explanation)
-- [DIAGRAM REFLECTIONS.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/Ass%5B6%5D/Product%20Backlog.md) (Diagram reflection)
+- [DIAGRAM REFLECTIONS.md](https://github.com/Ongeziwe-Qwayede-01/Risk-Management-System/blob/main/Ass%5B8%5D/Reflections.md) (Diagram reflection)
 
 ## Domain: 
 The system falls under the domain of **Business Operations,Organisations and Risk Management**, which helps businesses identify, analyze, and respond to potential risks in an organized manner.
