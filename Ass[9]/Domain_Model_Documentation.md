@@ -1,6 +1,6 @@
 # RMS Domain Modeling and Class Diagram
 
-This document contains the Domain Model for the **Risk Management System (RMS)**, a Class Diagram written in Mermaid.js, and a reflective analysis aligning with previous assignments in the Agile development lifecycle.
+
 
 ---
 
