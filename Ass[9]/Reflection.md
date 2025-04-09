@@ -1,4 +1,4 @@
-## 3. ✨ Reflection (20 Marks)
+## Reflection
 
 ### 1. Challenges in Designing the Domain Model and Class Diagram
 
@@ -34,4 +34,4 @@ To maintain simplicity:
 
 Through this assignment, I deepened my understanding of **object-oriented design**. I learned the importance of aligning **domain logic** with **system requirements**, and the value of **visual modeling** in communicating software structure. 
 
-**Mermaid.js**, in particular, made it easier to visualize complex relationships. I also realized how much clarity comes from linking models back to **user stories** and **Agile artifacts**—it makes each class purposeful and grounded in real-world scenarios.
+**Mermaid.js**, in particular, made it easier to visualize complex relationships. I also realized how much clarity comes from linking models back to **user stories** and **Agile artifacts** it makes each class purposeful and grounded in real-world scenarios.
