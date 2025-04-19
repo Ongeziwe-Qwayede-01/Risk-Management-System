@@ -2,7 +2,7 @@
 ```markdown
 ## Language Choice & Design Decisions
 
-We chose **Python** for its readability, dynamic typing, and ease of prototyping. The classes directly reflect our UML class diagram from Assignment 9.
+I chose **Python** for its readability, dynamic typing, and ease of prototyping. The classes directly reflect our UML class diagram from Assignment 9.
 
 ### Key Design Decisions
 - Used underscores for private attributes.
