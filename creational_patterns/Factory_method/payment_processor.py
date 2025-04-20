@@ -1,4 +1,5 @@
-from .processor import NotificationProcessor
+# payment_processor.py
+from .notification_base import NotificationProcessor
 
 class EmailProcessor(NotificationProcessor):
     def send_alert(self, message):
