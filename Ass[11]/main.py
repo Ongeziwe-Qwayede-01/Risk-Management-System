@@ -2,7 +2,7 @@ from factories.repository_factory import RepositoryFactory
 from src.risk import Risk
 
 def main():
-    print("📊 RMS Repository Pattern Demo\n")
+    print("RMS Repository Pattern Demo\n")
 
     # Get the in-memory repository using factory
     risk_repo = RepositoryFactory.get_risk_repository()
