@@ -1,0 +1,46 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "title": "Risk Management System API",
+      "version": "1.0.0"
+    },
+    "paths": {
+      "/api/risks": {
+        "get": {
+          "summary": "List all risks",
+          "responses": {
+            "200": {
+              "description": "List of risks"
+            }
+          }
+        },
+        "post": {
+          "summary": "Create a new risk",
+          "parameters": [
+            { "name": "description", "in": "query", "required": true, "schema": {"type": "string"} },
+            { "name": "severity", "in": "query", "required": true, "schema": {"type": "string"} },
+            { "name": "likelihood", "in": "query", "required": true, "schema": {"type": "string"} }
+          ],
+          "responses": {
+            "200": { "description": "Risk created" },
+            "400": { "description": "Validation error" }
+          }
+        }
+      },
+      "/api/users": {
+        "get": {
+          "summary": "List all users",
+          "responses": { "200": { "description": "List of users" } }
+        },
+        "post": {
+          "summary": "Create a user",
+          "parameters": [
+            { "name": "username", "in": "query", "required": true, "schema": {"type": "string"} },
+            { "name": "role", "in": "query", "required": true, "schema": {"type": "string"} }
+          ],
+          "responses": { "200": { "description": "User created" }, "400": { "description": "Validation error" } }
+        }
+      }
+    }
+  }
+  

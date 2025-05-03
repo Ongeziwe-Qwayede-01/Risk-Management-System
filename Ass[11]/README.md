@@ -53,7 +53,7 @@ The RMS is designed with future extensibility in mind. Right now, it uses an **i
 | In-Memory              | Implemented | For testing & prototyping           |
 | JSON / XML Files       | Stubbed     | For local file storage              |
 | SQL / NoSQL DBs        | Designed    | For future scalability              |
-| External REST APIs     | Designed    | For cloud or microservice setups    |
+|  External REST APIs     | Designed    | For cloud or microservice setups    |
 
 The repository layer is fully decoupled from the business logic. Switching implementations only requires an update in the `RepositoryFactory`.
 
