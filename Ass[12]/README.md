@@ -71,6 +71,8 @@ pytest tests/
 ---
 ## GitHub Project Board showing completed tasks
 ![Screenshot 2025-05-04 185114](https://github.com/user-attachments/assets/155a0bd9-597d-4d4a-a8b8-24d0f6b0ec88)
+![Screenshot 2025-05-04 190046](https://github.com/user-attachments/assets/eadc07c1-be65-49ee-afa1-f1838087c51d)
+
 
 ---
 
