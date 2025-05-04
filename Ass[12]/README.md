@@ -69,6 +69,10 @@ pytest tests/
 - `tests/`: Organized test files per service and route layer.
 
 ---
+## GitHub Project Board showing completed tasks
+![Screenshot 2025-05-04 185114](https://github.com/user-attachments/assets/155a0bd9-597d-4d4a-a8b8-24d0f6b0ec88)
+
+---
 
 ## Notes
 - The repository structure supports **easy swapping** between in-memory, filesystem, or real DB storage.
