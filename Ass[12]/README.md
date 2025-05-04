@@ -50,7 +50,8 @@ uvicorn main:app --reload
 3. **Access Documentation**:
 - Swagger UI: http://127.0.0.1:8000/docs
 - Redoc: http://127.0.0.1:8000/redoc
-"C:\Users\Sithabile Manipha\OneDrive\Imagens\Screenshots\Screenshot 2025-05-04 184853.png"
+![Screenshot 2025-05-04 184853](https://github.com/user-attachments/assets/75bc2d37-e0c0-4109-b484-b781b962e9be)
+
 ---
 
 ## Running Tests
