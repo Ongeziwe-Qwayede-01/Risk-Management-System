@@ -1,5 +1,3 @@
-![License](https://img.shields.io/github/license/Ongeziwe-Qwayede-01/Risk-Management-System)
-![Tests](https://img.shields.io/github/actions/workflow/status/Ongeziwe-Qwayede-01/Risk-Management-System/python-app.yml?label=tests&logo=github)
 
 # 📊 Risk Management System
 
